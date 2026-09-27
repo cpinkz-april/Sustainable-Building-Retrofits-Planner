@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.set_page_config(page_title="Executive Decision Page", layout="wide")
-DATA_PATH = "capstone/building_metadata.csv"
+DATA_PATH = "building_metadata.csv"
 df = pd.read_csv(DATA_PATH)
 
 st.title("Executive Decision Page")
